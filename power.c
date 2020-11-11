@@ -14,7 +14,7 @@ double Exponent(int x) {
 }
 
 double Power(double x, int y) {
-	if(x == 0){return 0}				//if the base is zero, return 0. this test is to make sure no division by 0 is happening.
+	if(x == 0){return 0;}				//if the base is zero, return 0. this test is to make sure no division by 0 is happening.
 	if (y >= 0) {						//if the power is not negative, 
 		double result = 1;
 		int i;
